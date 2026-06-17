@@ -16,6 +16,11 @@ header, footer {
     color: #6ee22b;
 }
 
+/*added this so the notes page heading wouldnt be left out of the coloring and ofc its another green*/
+.site-title-2{
+    color: #49a712;
+}
+
 #my-image {
     /* followed the instructions to add a box shadow to the image, I had something else styling my image but this is more targeted to THAT specific image of me (even theres only one image) */
     box-shadow: 0 0 1px 2px black;
