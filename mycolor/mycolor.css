@@ -1,8 +1,47 @@
 body{
     /* I liked this color so I used it for the backround and yes I did have to search up how to add comments for CSS https://www.w3schools.com/css/css_comments.asp */
+    /* I already had this CSS file so might as well use it to style my website too */
     background-color: #c7a9a9;
-
+    /* To style the donts for the body I guess. Im gonna be honest I just chose random fonts  */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
+
+/* learnt that we can select 2 elements with just a comma in between them. I chose the background color cause green is my favourite color. HOWEVER it does not look good with the background. */
+header, footer {
+     background-color: #243d30;
+}
+
+.site-title {
+    color: #6ee22b;
+}
+
+#my-image {
+    /* followed the instructions to add a box shadow to the image, I had something else styling my image but this is more targeted to THAT specific image of me (even theres only one image) */
+    box-shadow: 0 0 1px 2px black;
+}
+
+.at-least-im-not-on-my-phone-hobbies {
+    /* square bullet points plus a amazing class name that I CHOSE this time */
+    list-style-type: square;
+}
+
+nav ul {
+    list-style-type: none;
+}
+/* the nav tags targed the navigation links and styled them. Im pretty sure I followed all the instructions but added questionable colors */
+/* WE learned that text-decoration is for the underline and stuff color is just the text color so it doesnt look like a blueish purple mess on a green background however box and bg color around it fixed that. Just added it because it looks somewhat better */
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #ab0d0d; 
+    border: 1px solid #589635; 
+}
+/*hover effect to remove the bad red color and make it green caause i like green */
+nav a:hover{
+    background-color: #3a5f4a; 
+}
+
 
 img {
     height: 560px;
